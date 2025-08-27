@@ -68,58 +68,69 @@ const solutions = [
 
 const faqs = [
   {
-    question: "How can social media marketing benefit my business?",
+    question: "¿Qué incluye exactamente el servicio de CISO as a Service?",
     answer:
-      "Social media marketing can significantly benefit your business by increasing brand awareness, engaging your target audience, driving website traffic, and generating leads. It also allows for direct interaction with your customers, fostering brand loyalty and providing valuable insights into consumer behavior.",
+      "Gobierno de ciberseguridad, definición de estrategia y políticas, gestión de riesgos, planificación (plan de acción), métricas/KRIs-KPIs y reportes ejecutivos. Operamos fraccionalmente, alineados a tus comités y prioridades."
   },
   {
-    question: "What sets your agency apart from others?",
+    question: "¿Cuánto tarda implementar un SGSI ISO/IEC 27001:2022?",
     answer:
-      "Our agency stands out through a combination of tailored strategies, data-driven decision-making, and a commitment to client collaboration. We prioritize understanding your unique business goals and offer personalized solutions that deliver measurable results.",
+      "Depende del alcance y madurez inicial. Como referencia, proyectos típicos toman entre 12 y 20 semanas en sprints quincenales, desde el contexto y análisis de riesgos hasta SoA, evidencias y preparación de auditoría."
   },
   {
-    question: "How do you measure the success of social media campaigns?",
+    question: "¿Qué es el SoA y por qué es importante?",
     answer:
-      "We employ a comprehensive approach to measure campaign success. This includes tracking key performance indicators (KPIs) such as engagement metrics, conversion rates, reach, and customer feedback. Our goal is to provide you with transparent and actionable insights into the effectiveness of your social media efforts.",
+      "La Declaración de Aplicabilidad (SoA) lista los controles seleccionados del Anexo A, su aplicabilidad y justificación. Es clave para demostrar el tratamiento de riesgos y la trazabilidad del SGSI ante auditorías."
   },
   {
-    question:
-      "Can you give examples of your successful social media campaigns?",
+    question: "¿Cómo realizan la Auditoría combinada ISO 27001 + ISO 9001?",
     answer:
-      "Certainly! We have a portfolio of successful campaigns across various industries. Check out our Case Studies to see how we've helped businesses like yours achieve their social media goals.",
+      "Integramos el plan de auditoría interna para ambos sistemas, reducimos interrupciones y entregamos un informe único con hallazgos priorizados y plan de acciones correctivas coordinado."
   },
   {
-    question: "Do you offer customized social media strategies?",
+    question: "NIST CSF 2.0: ¿qué entregan en el Gap & Plan de Acción?",
     answer:
-      "Absolutely. Our team specializes in creating customized strategies tailored to your brand, industry, and target audience. We believe in the power of uniqueness, and our strategies reflect your specific goals and aspirations.",
+      "Evaluamos madurez en las funciones Govern, Identify, Protect, Detect, Respond y Recover; priorizamos brechas por riesgo/impacto y definimos un plan de acción con hitos trimestrales, responsables y métricas."
   },
   {
-    question: "How do you handle negative comments or reviews on social media?",
+    question: "BIA & Continuidad (ISO 22301): ¿qué resultados obtendré?",
     answer:
-      "We have a proactive approach to managing online reputation. Our social listening tools help us monitor brand mentions in real-time. In case of negative comments, we respond promptly with empathy and seek resolutions. We believe in turning challenges into opportunities for improvement.",
+      "RTO/RPO por proceso/servicio, análisis de dependencias y terceros, estrategias de continuidad y planes BCP/DRP listos para ejercitar, además de lecciones aprendidas para mejora continua."
   },
   {
-    question: "What social media platforms do you work with?",
+    question: "¿Cómo abordan el cumplimiento con la Ley 21.663 (Chile)?",
     answer:
-      "We work with a wide range of social media platforms, including but not limited to Facebook, Instagram, Twitter, LinkedIn, Pinterest, and TikTok. Our strategies are adaptable to the platforms most relevant to your target audience.",
+      "Realizamos un gap regulatorio-operativo, definimos roles y responsabilidades, flujos de notificación de incidentes, controles mínimos y evidencias. Entregamos una matriz de cumplimiento y un plan de adecuación."
   },
   {
-    question:
-      "How often will I receive reports on the performance of my social media campaigns?",
+    question: "¿Pueden crear tableros GRC en Power BI conectados a mis datos?",
     answer:
-      "We provide regular and detailed reports on the performance of your social media campaigns. The frequency of reporting can be customized based on your preferences, with options for weekly, bi-weekly, or monthly updates.",
+      "Sí. Modelamos datos en esquema de estrella, definimos KPIs/KRIs, conectamos a fuentes (por ejemplo, MySQL/CSV/Excel/InterAudit) y publicamos con gobierno de acceso. Incluimos guía de uso y adopción."
   },
   {
-    question:
-      "Is there ongoing support if I have questions or need adjustments to my strategy?",
+    question: "¿Trabajan la seguridad en la nube (ISO 27017/27018)?",
     answer:
-      "Absolutely. We offer ongoing support to address any questions or concerns you may have. Our team is readily available to assist you and can make adjustments to your strategy as needed to ensure it aligns with your evolving business goals.",
+      "Mapeamos controles para servicios cloud, configuraciones seguras, gobierno y protección de PII en la nube (27018). Integramos riesgos de terceros y cláusulas contractuales."
   },
   {
-    question:
-      "Can I see a demo or get a consultation before deciding to work with your agency?",
+    question: "¿Cómo gestionan riesgos de proveedores y terceros?",
     answer:
-      "Certainly! We offer free consultations and personalized demos to showcase our approach, discuss your needs, and determine how we can best support your business. Contact us to schedule a consultation.",
+      "Evaluamos criticidad, riesgos y controles esperados, cláusulas de seguridad y monitoreo continuo. Mantenemos trazabilidad de evidencias y de planes de mitigación."
+  },
+  {
+    question: "¿Incluyen formación y concientización?",
+    answer:
+      "Sí. Programas ejecutivos y técnicos, campañas de awareness y medición de adopción. Adaptamos contenidos a roles y procesos clave."
+  },
+  {
+    question: "¿Qué modalidad de trabajo ofrecen y cómo se cotiza?",
+    answer:
+      "Proyectos cerrados por alcance, bolsas de horas o CISOaaS mensual. La propuesta detalla entregables, cronograma, plan de acción y responsabilidades."
+  },
+  {
+    question: "¿Cómo resguardan la confidencialidad y datos sensibles?",
+    answer:
+      "Firmamos acuerdos de confidencialidad (NDA), definimos accesos mínimos necesarios, registramos evidencias de forma segura y realizamos auditorías internas periódicas."
   },
 ];
 
