@@ -21,3 +21,6 @@ pnpm-debug.log*
 .DS_Store
 notas.txt
 dist.zip
+interdata-build.zip
+.vscode/settings.json
+.vscode/settings.json

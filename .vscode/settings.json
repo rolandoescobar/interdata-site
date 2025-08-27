@@ -1,6 +1,14 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  "svg.preview.background": "editor"
+  // Exclui a pasta 'dist' da visualização de arquivos no VS Code Explorer.
+  "files.exclude": {
+    "dist/**": true
+  },
+  // Impede que o VS Code monitore alterações na pasta 'dist'.
+  "files.watcherExclude": {
+    "**/dist/**": true
+  },
+  // Exclui a pasta 'dist' dos resultados de busca.
+  "search.exclude": {
+    "dist/**": true
+  }
 }
