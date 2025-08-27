@@ -35,13 +35,13 @@ const services = [
 
 const solutions = [
   {
-    title: "Visibility Dilemma",
+    title: "Modelo de Servicios por Bolsas de Horas",
     painPoint:
-      "Your brand is drowning in the vast sea of social media, struggling to be seen by your target audience.",
+      "Conscientes de la necesidad de flexibilidad, ofrecemos un esquema de bolsas de horas mensuales.",
     agitatepainPoint:
-      "It's disheartening when your carefully crafted content goes unnoticed. Your potential customers are out there, but they simply can't find you amidst the digital noise.",
+      "Este modelo permite acceder a nuestros especialistas en la medida justa que su negocio lo requiera, evitando costos fijos de personal y ajustándose a la dinámica de cada organización.",
     solution:
-      "Our targeted visibility strategies cut through the clutter, ensuring your brand is not just seen but remembered. Watch our video to see how we make your presence impossible to ignore.",
+      "Ventajas para su empresa: 1) Flexibilidad: uso de horas en soporte, auditorías, gestión de incidentes o asesoría estratégica. 2) Control de costos: tarifas preferenciales y previsibilidad presupuestaria. 3) Disponibilidad inmediata: acceso a expertos cuando los necesite. 4) Transparencia: reportes claros y mensuales del consumo de horas.",
     img: visibilityDilemma,
   },
   {

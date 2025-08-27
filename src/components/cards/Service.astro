@@ -5,9 +5,11 @@ export interface Props {
   title: string;
   features: string[];
   icon: string;
+  description?: string;
+  benefits?: string[];
 }
 
-const { title, features, icon } = Astro.props;
+const { title, features, icon, description, benefits } = Astro.props;
 ---
 
 <div
@@ -23,6 +25,9 @@ const { title, features, icon } = Astro.props;
     <h2 class="text-lg md:text-xl font-semibold text-heading-2">
       {title}
     </h2>
+    {description && (
+      <p class="mt-4 text-heading-3 font-normal whitespace-pre-line">{description}</p>
+    )}
     <Paragraph>
       <div
         class="mt-8 space-y-4 text-heading-3 font-medium list-outside list-disc"
@@ -41,6 +46,16 @@ const { title, features, icon } = Astro.props;
         }
       </div>
     </Paragraph>
+    {benefits && benefits.length > 0 && (
+      <div class="mt-6">
+        <h3 class="text-base font-semibold mb-2">Beneficios:</h3>
+        <ul class="list-disc list-inside space-y-1">
+          {benefits.map((benefit) => (
+            <li>{benefit}</li>
+          ))}
+        </ul>
+      </div>
+    )}
   </div>
   <!-- <span
     class="absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full"

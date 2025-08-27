@@ -77,14 +77,18 @@ export interface Props {
 const { className } = Astro.props;
 ---
 
-<section class=`${className}`>
+<!-- Sección de marcas mostrando los logos de marcas confiables 
+<section class={`${className}`}>
   <Container className="space-y-8">
-    <div class="text-center max-w-3xl mx-auto">
+  Título de la sección -->
+    <!--<div class="text-center max-w-3xl mx-auto">
       <Title>Trusted by leading brands in the industry.</Title>
     </div>
+     
     <div class="flex justify-center flex-wrap gap-4">
       {
         brands.map((brand) => (
+          // Tarjeta individual de logo de marca
           <div class="p-4 sm:p-5 rounded-xl border border-box-border group bg-box-bg">
             <Image
               src={brand.logo}
@@ -98,4 +102,4 @@ const { className } = Astro.props;
       }
     </div>
   </Container>
-</section>
+</section>-->
