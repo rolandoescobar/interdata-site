@@ -45,23 +45,23 @@ const solutions = [
     img: visibilityDilemma,
   },
   {
-    title: "Engagement Gap",
+    title: "Cuando la seguridad no conversa con el negocio",
     painPoint:
-      "Despite your efforts, audience engagement remains lackluster, and interactions are not translating into meaningful connections.",
+      "A pesar de invertir en SGSI (ISO/IEC 27001), NIST CSF y controles, la conversación con la alta dirección no despega: los riesgos no compiten por presupuesto, los indicadores no cuentan una historia y el impacto en objetivos no se ve",
     agitatepainPoint:
-      "It's frustrating to see competitors effortlessly engaging their audience while your brand struggles to spark conversations. Your content deserves better results, and we have the solution.",
+      "Esto frustra a los equipos y retrasa decisiones críticas. Sin KRIs/KPIs claros, SoA y evidencias ordenadas —y con la presión regulatoria de la Ley 21.663— la priorización se vuelve reactiva y la brecha con la competencia crece.",
     solution:
-      "Our proven engagement tactics ignite conversations, turning passive viewers into active participants. Explore how we bridge the engagement gap in our video walkthrough.",
+      "Traducimos tu SGSI y NIST CSF al lenguaje de negocio: definimos KRIs/KPIs accionables, tableros GRC en Power BI, rituales de gobernanza y planes de acción trimestrales con responsables. Con preparación de auditoría (ISO 27001) y cumplimiento Ley 21.663, logramos visibilidad semanal y reducción de riesgo medible.",
     img: engagementGap,
   },
   {
-    title: "Results in Hibernation",
+    title: "Resultados en pausa",
     painPoint:
-      "Your social media efforts aren't translating into tangible results, leaving you wondering if your investment is paying off.",
+      "Los proyectos de SGSI (ISO 27001), NIST CSF y continuidad (ISO 22301) avanzan lento: el backlog crece, las auditorías se acercan y la inversión no se refleja en KRIs/KPIs.",
     agitatepainPoint:
-      "It's disheartening when the metrics show little growth or impact. Your time and resources are valuable, and it's time to break free from the cycle of stagnant results.",
+      "Cada mes sin cerrar brechas aumenta la exposición a incidentes y sanciones (Ley 21.663), erosiona la confianza del directorio y complica las auditorías. El momentum se pierde y las tareas vuelven a empezar.",
     solution:
-      "Our data-driven approach ensures every action is purposeful, yielding measurable results. Dive into our video guide to witness how we turn social media activities into a powerful engine for your brand's success.",
+      "Activamos un equipo por bolsas de horas mensuales con SLA y sprints quincenales. Priorizamos quick wins, cerramos brechas, formalizamos SoA y evidencias, y montamos tableros GRC (KRIs/KPIs) para visibilidad semanal. Flexibilidad para estrategia, auditoría, continuidad y respuesta, con reporte claro de consumo y resultados.",
     img: resultsInHibernation,
   },
 ];
