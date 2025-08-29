@@ -12,6 +12,10 @@ type SolutionsProps = {
   painPoint: string;
   agitatepainPoint: string;
   solution: string;
+  flexibility: string;
+  controlCost: string;
+  availability: string;
+  transparency: string;
   img: ImageMetadata;
 };
 
@@ -24,7 +28,7 @@ const { className } = Astro.props;
 
 <section id="solutions" class=`flex flex-col ${className}`>
   {
-    solutions.map((solution: SolutionsProps, index: number) => {
+    solutions.map((solution, index) => {
       const oddIndex = index % 2 === 0;
       const flexRow = oddIndex ? "midmd:flex-row-reverse" : "midmd:flex-row";
       const bgColor = oddIndex
@@ -46,7 +50,16 @@ const { className } = Astro.props;
                 {solution.agitatepainPoint}
               </Paragraph>
               <Paragraph className="mt-3 font-medium">
-                {solution.solution}
+                <GradiantText />
+                <strong>{solution.solution}</strong>
+                <br />
+                {solution.flexibility}
+                <br />
+                {solution.controlCost}
+                <br />
+                {solution.availability}
+                <br />
+                {solution.transparency}
               </Paragraph>
             </div>
 

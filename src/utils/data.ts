@@ -41,7 +41,15 @@ const solutions = [
     agitatepainPoint:
       "Este modelo permite acceder a nuestros especialistas en la medida justa que su negocio lo requiera, evitando costos fijos de personal y ajustándose a la dinámica de cada organización.",
     solution:
-      "Ventajas para su empresa: 1) Flexibilidad: uso de horas en soporte, auditorías, gestión de incidentes o asesoría estratégica. 2) Control de costos: tarifas preferenciales y previsibilidad presupuestaria. 3) Disponibilidad inmediata: acceso a expertos cuando los necesite. 4) Transparencia: reportes claros y mensuales del consumo de horas.",
+      "Ventajas para su empresa:",
+    flexibility:
+      "1) Flexibilidad: uso de horas en soporte, auditorías, gestión de incidentes o asesoría estratégica.",
+    controlCost:
+      "2) Control de costos: tarifas preferenciales y previsibilidad presupuestaria.",
+    availability:
+      "3) Disponibilidad inmediata: acceso a expertos cuando los necesite.",
+    transparency:
+      "4) Transparencia: reportes claros y mensuales del consumo de horas.",
     img: visibilityDilemma,
   },
   {
