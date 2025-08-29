@@ -1,4 +1,5 @@
-import visibilityDilemma from "../assets/images/visibility-dilemma.jpg";
+//import visibilityDilemma from "../assets/images/visibility-dilemma.jpg";
+import visibilityDilemma from "../assets/images/hero1.jpg";
 import engagementGap from "../assets/images/engagement-gap.jpg";
 import resultsInHibernation from "../assets/images/results-in-hibernation.jpg";
 
