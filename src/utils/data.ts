@@ -59,7 +59,7 @@ const solutions = [
     agitatepainPoint:
       "Esto frustra a los equipos y retrasa decisiones críticas. Sin KRIs/KPIs claros, SoA y evidencias ordenadas —y con la presión regulatoria de la Ley 21.663— la priorización se vuelve reactiva y la brecha con la competencia crece.",
     solution:
-      "Traducimos tu SGSI y NIST CSF al lenguaje de negocio: definimos KRIs/KPIs accionables, tableros GRC en Power BI, rituales de gobernanza y planes de acción trimestrales con responsables. Con preparación de auditoría (ISO 27001) y cumplimiento Ley 21.663, logramos visibilidad semanal y reducción de riesgo medible.",
+      "Convertimos tu SGSI a un lenguaje claro para el negocio. Creamos indicadores clave (KRIs/KPIs) que se pueden accionar, reuniones periódicas de gobernanza y planes de acción trimestrales con responsables definidos. También te ayudamos a prepararte para auditorías (ISO 27001) y a cumplir con la Ley 21.663. Todo con visibilidad semanal y una reducción de riesgo que realmente se puede medir.",
     img: engagementGap,
   },
   {
