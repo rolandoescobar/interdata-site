@@ -38,7 +38,7 @@ const solutions = [
   {
     title: "Modelo de Servicios por 'Bolsas de Horas'",
     painPoint:
-      "Conscientes de la necesidad de flexibilidad, ofrecemos un esquema de bolsas de horas mensuales.",
+      "Conscientes de la necesidad de flexibilidad, ofrecemos un esquema de 'bolsas de horas mensuales'.",
     agitatepainPoint:
       "Este modelo permite acceder a nuestros especialistas en la medida justa que su negocio lo requiera, evitando costos fijos de personal y ajustándose a la dinámica de cada organización.",
     solution:
