@@ -36,7 +36,7 @@ const services = [
 
 const solutions = [
   {
-    title: "Modelo de Servicios por Bolsas de Horas",
+    title: "Modelo de Servicios por 'Bolsas de Horas'",
     painPoint:
       "Conscientes de la necesidad de flexibilidad, ofrecemos un esquema de bolsas de horas mensuales.",
     agitatepainPoint:
