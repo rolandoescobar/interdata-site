@@ -1,3 +1,17 @@
-<div class="grid md:grid-cols-2 gap-8 h-max">
-    <slot/>
+---
+/**
+ * GroupFooterNav Component
+ *
+ * Renders a responsive grid container for footer navigation groups.
+ * - Uses a single column layout on small screens and two columns on medium screens and above.
+ * - Accepts child elements via the default slot.
+ * - Applies spacing between grid items and ensures the container height fits its content.
+ *
+ * Usage:
+ * Place navigation links or groups inside the component to display them in a structured grid layout.
+ */
+---
+
+<div class="grid md:grid-cols-2 gap-4 h-max">
+    <slot />
 </div>
