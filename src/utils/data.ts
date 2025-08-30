@@ -92,7 +92,7 @@ const faqs = [
       "La Declaración de Aplicabilidad (SoA) lista los controles seleccionados del Anexo A, su aplicabilidad y justificación. Es clave para demostrar el tratamiento de riesgos y la trazabilidad del SGSI ante auditorías."
   },
   {
-    question: "¿Cómo realizan la Auditoría combinada ISO 27001 + ISO 9001?",
+    question: "¿Cómo realizan la Auditoría combinada ISO 27001 + ISO 22301?",
     answer:
       "Integramos el plan de auditoría interna para ambos sistemas, reducimos interrupciones y entregamos un informe único con hallazgos priorizados y plan de acciones correctivas coordinado."
   },
@@ -134,12 +134,17 @@ const faqs = [
   {
     question: "¿Qué modalidad de trabajo ofrecen y cómo se cotiza?",
     answer:
-      "Proyectos cerrados por alcance, bolsas de horas o CISOaaS mensual. La propuesta detalla entregables, cronograma, plan de acción y responsabilidades."
+      "Proyectos cerrados por alcance, bolsas de horas o CISO as a Service mensual. La propuesta detalla entregables, cronograma, plan de acción y responsabilidades."
   },
   {
     question: "¿Cómo resguardan la confidencialidad y datos sensibles?",
     answer:
       "Firmamos acuerdos de confidencialidad (NDA), definimos accesos mínimos necesarios, registramos evidencias de forma segura y realizamos auditorías internas periódicas."
+  },
+  {
+    question: "¿Qué es la continuidad del negocio?",
+    answer:
+      "La continuidad del negocio es esencial para las empresas modernas y garantiza que las organizaciones puedan mantener sus funciones críticas durante y después de un incidente. Es la base de una organización resiliente."
   },
 ];
 
