@@ -5,16 +5,16 @@ import resultsInHibernation from "../assets/images/results-in-hibernation.png";
 
 const services = [
   {
-    title: "Asesorías en Seguridad de la Información (ISO 27001)",
+    title: "Asesorías en Seguridad de la Información (ISO 27001:2022)",
     features: [
       "Diseño de políticas y procedimientos a la medida",
-      "Implementación de controles alineados a ISO 27001",
+      "Implementación de controles alineados a ISO 27001:2022",
       "Preparación para auditorías y certificaciones"
     ],
     icon: `<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" class=\"w-6 h-6\"><path d=\"M12 2L2 7v6c0 5.25 3.75 10 10 10s10-4.75 10-10V7l-10-5z\"/></svg>`
   },
   {
-    title: "Evaluaciones GAP (ISO 27001 / 22301)",
+    title: "Evaluaciones GAP (ISO 27001:2022 / 22301:2019)",
     features: [
       "Diagnóstico de cumplimiento y madurez",
       "Identificación de brechas y plan de acción",
@@ -56,19 +56,19 @@ const solutions = [
   {
     title: "Cuando la seguridad no conversa con el negocio",
     painPoint:
-      "A pesar de invertir en SGSI (ISO/IEC 27001), NIST CSF y controles, la conversación con la alta dirección no despega: los riesgos no compiten por presupuesto, los indicadores no cuentan una historia y el impacto en objetivos no se ve",
+      "A pesar de invertir en SGSI (ISO/IEC 27001:2022), NIST CSF y controles, la conversación con la alta dirección no despega: los riesgos no compiten por presupuesto, los indicadores no cuentan una historia y el impacto en objetivos no se ve",
     agitatepainPoint:
-      "Esto frustra a los equipos y retrasa decisiones críticas. Sin KRIs/KPIs claros, SoA y evidencias ordenadas —y con la presión regulatoria de la Ley 21.663— la priorización se vuelve reactiva y la brecha con la competencia crece.",
+      "Esto frustra a los equipos y retrasa decisiones críticas. Sin KRIs/KPIs claros, SoA y evidencias ordenadas —y con la presión regulatoria de la  Ley N° 21.663— la priorización se vuelve reactiva y la brecha con la competencia crece.",
     solution:
-      "Convertimos tu SGSI a un lenguaje claro para el negocio. Creamos indicadores clave (KRIs/KPIs) que se pueden accionar, reuniones periódicas de gobernanza y planes de acción trimestrales con responsables definidos. También te ayudamos a prepararte para auditorías (ISO 27001) y a cumplir con la Ley 21.663. Todo con visibilidad semanal y una reducción de riesgo que realmente se puede medir.",
+      "Convertimos tu SGSI a un lenguaje claro para el negocio. Creamos indicadores clave (KRIs/KPIs) que se pueden accionar, reuniones periódicas de gobernanza y planes de acción trimestrales con responsables definidos. También te ayudamos a prepararte para auditorías (ISO 27001:2022) y a cumplir con la Ley N° 1.663. Todo con visibilidad semanal y una reducción de riesgo que realmente se puede medir.",
     img: engagementGap,
   },
   {
     title: "Resultados en pausa",
     painPoint:
-      "Los proyectos de SGSI (ISO 27001), NIST CSF y continuidad (ISO 22301) avanzan lento: el backlog crece, las auditorías se acercan y la inversión no se refleja en KRIs/KPIs.",
+      "Los proyectos de SGSI (ISO 27001:2022), NIST CSF y continuidad (ISO 22301:2019) avanzan lento: el backlog crece, las auditorías se acercan y la inversión no se refleja en KRIs/KPIs.",
     agitatepainPoint:
-      "Cada mes sin cerrar brechas aumenta la exposición a incidentes y sanciones (Ley 21.663), erosiona la confianza del directorio y complica las auditorías. El momentum se pierde y las tareas vuelven a empezar.",
+      "Cada mes sin cerrar brechas aumenta la exposición a incidentes y sanciones (Ley N° 21.663), erosiona la confianza del directorio y complica las auditorías. El momentum se pierde y las tareas vuelven a empezar.",
     solution:
       "Activamos un equipo por bolsas de horas mensuales con SLA y sprints quincenales. Priorizamos quick wins, cerramos brechas, formalizamos SoA y evidencias, y montamos tableros GRC (KRIs/KPIs) para visibilidad semanal. Flexibilidad para estrategia, auditoría, continuidad y respuesta, con reporte claro de consumo y resultados.",
     img: resultsInHibernation,
@@ -92,7 +92,7 @@ const faqs = [
       "La Declaración de Aplicabilidad (SoA) lista los controles seleccionados del Anexo A, su aplicabilidad y justificación. Es clave para demostrar el tratamiento de riesgos y la trazabilidad del SGSI ante auditorías."
   },
   {
-    question: "¿Cómo realizan la Auditoría combinada ISO 27001 + ISO 22301?",
+    question: "¿Cómo realizan la Auditoría combinada ISO 27001:2022 + ISO 22301:2019?",
     answer:
       "Integramos el plan de auditoría interna para ambos sistemas, reducimos interrupciones y entregamos un informe único con hallazgos priorizados y plan de acciones correctivas coordinado."
   },
@@ -102,12 +102,12 @@ const faqs = [
       "Evaluamos madurez en las funciones Govern, Identify, Protect, Detect, Respond y Recover; priorizamos brechas por riesgo/impacto y definimos un plan de acción con hitos trimestrales, responsables y métricas."
   },
   {
-    question: "BIA & Continuidad (ISO 22301): ¿qué resultados obtendré?",
+    question: "BIA & Continuidad (ISO 22301:2019): ¿qué resultados obtendré?",
     answer:
       "RTO/RPO por proceso/servicio, análisis de dependencias y terceros, estrategias de continuidad y planes BCP/DRP listos para ejercitar, además de lecciones aprendidas para mejora continua."
   },
   {
-    question: "¿Cómo abordan el cumplimiento con la Ley 21.663 (Chile)?",
+    question: "¿Cómo abordan el cumplimiento con la Ley N° 21.663 (Chile)?",
     answer:
       "Realizamos un gap regulatorio-operativo, definimos roles y responsabilidades, flujos de notificación de incidentes, controles mínimos y evidencias. Entregamos una matriz de cumplimiento y un plan de adecuación."
   },

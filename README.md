@@ -8,8 +8,8 @@ Sitio corporativo desarrollado con Astro y Tailwind CSS, orientado a la consulto
 - **Estilos:** Tailwind CSS, dark mode por defecto, gradientes personalizados
 - **Idiomas:** Español
 - **Servicios destacados:**
-  - Asesorías en SGSI (ISO 27001)
-  - Evaluaciones GAP (ISO 27001 / 22301)
+  - Asesorías en SGSI (ISO 27001:2022)
+  - Evaluaciones GAP (ISO 27001:2022 / 22301:2019)
   - CISO as a Service
   - Modelo de Servicios por 'Bolsas de Horas'
 - **Componentes personalizados:** Hero, Footer, Navbar, Cards, FAQ, CTA, etc.
